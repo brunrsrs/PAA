@@ -12,12 +12,11 @@ void Inserir(std::vector<std::vector<int>> &mat, int valor1, int valor2) {
 
 
 void Mostrar(std::vector<std::vector<int>> mat, int tamanho) {
-    int aux;
     for(int i=0; i<tamanho; i++) {
             std::cout<<i+1;
         for(int j=0; j<tamanho; j++) {
             if (mat[i][j] == 1)
-                std::cout<<" -> "<<j;
+                std::cout<<" -> "<<j+1;
         }
     std::cout<<"\n";
     }
